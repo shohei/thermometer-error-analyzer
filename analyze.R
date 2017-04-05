@@ -10,14 +10,8 @@ ggplot() +
   geom_density(data=df, aes(x=temperature), color='green') +
   geom_density(data=df2, aes(x=temperature), color='red')
 
-pause = function()
-{
-    if (interactive()) {
-        invisible(readline(prompt = "Press <Enter> to continue..."))
-    }
-    else {
-        cat("Press <Enter> to continue...")
-        invisible(readLines(file("stdin"), 1))
-    }
+i<-0
+while(i<1){
+#do nothing
 }
-pause()
+

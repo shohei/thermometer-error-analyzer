@@ -8,3 +8,4 @@ df2<-data.frame(temperature=rnorm(20,36.6,sd=0.1))
 ggplot() +
   geom_density(data=df, aes(x=temperature), color='green') +
   geom_density(data=df2, aes(x=temperature), color='red')
+a <- readLines("stdin",n=1)

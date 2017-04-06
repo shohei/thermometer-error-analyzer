@@ -1,2 +1,2 @@
 # Thermometer-error-analysis
-![](image.png)
+![](image2.png)
